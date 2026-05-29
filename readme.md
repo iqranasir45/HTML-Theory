@@ -1,102 +1,52 @@
-# 🎯 The 3-Rule Prompt Framework
+# Prompts Using the What / How / Why Framework
 
-## 💡 Example 1: Career Development
 
-### WHAT
-
-Create a 90-day career growth plan for me.
-
-### HOW
-
-Provide a week-by-week roadmap with goals,
-resources, exercises, and milestones.
-
-### WHY
-
-I want to qualify for a leadership role within the next year.
-
----
-
-## 🌍 Example 2: Travel Planning
-
-### WHAT
-
-Design a 7-day trip itinerary.
-
-### HOW
-
-Organize by day with activities, food recommendations,
-transportation tips, and estimated costs.
-
-### WHY
-
-I'm visiting for the first time and want a balanced experience.
-
----
-
-## 📱 Example 3: Content Creation
-
-### WHAT
-
-Generate 20 LinkedIn content ideas about AI.
-
-### HOW
-
-Present them in a table with title,
-format, and key takeaway.
-
-### WHY
-
-I manage a professional brand and need one month of content.
-
----
-
-## 💰 Example 4: Personal Finance
-
-### WHAT
-
-Create a beginner investment learning roadmap.
-
-### HOW
-
-Break it into stages with books,
-exercises, and milestones.
-
-### WHY
-
-I am new to investing and want a structured path.
-
----
-
-## 🚀 Example 5: Creative Writing
-
-### WHAT
-
-Create a science-fiction novel outline.
-
-### HOW
-
-Use a three-act structure with character arcs,
-plot points, and major conflicts.
-
-### WHY
-
-I am preparing a manuscript and need a strong story framework.
-
----
-
-# Example
-
-✅ Strong Prompt
-
-```text
+## Example 1:
 WHAT:
-Write a business plan for a SaaS startup.
+For a SaaS startup, draft a business strategy.
 
 HOW:
-Use professional language, include financial projections,
-and keep it under 1,500 words.
+Keep the document under 1,500 words and use professional language with financial estimates.
 
 WHY:
-I am preparing for an investor pitch next month.
+I'm planning for an investor presentation next month.
 
+## Example 2:
+WHAT:
+Create a simple "About Me" page with my name, a brief bio, a placeholder for my profile photo, and links to my GitHub and LinkedIn accounts.
+
+HOW:
+Use HTML and CSS only. No frameworks. Code should be clean and readable, with comments clarifying each section. It should look responsive on mobile and desktop.
+
+WHY:
+I recently completed my first HTML/CSS tutorial, and I'm eager to create something real. This will be my first project to show others and upload to GitHub.
+
+## Example 3:
+WHAT:
+Write a blog post about time management.
+
+HOW:
+Keep it under500 words, use simple language and practical tips.
+
+WHY:
+I am creating content for students and Job holders.
+
+## Example 4:
+WHAT:
+Create a 30-day fitness and diet plan for me.
+
+HOW:
+Concise, weekly timetable, and beginner-friendly. Create the whole plan in a proper table format. Include daily tasks, duration, and difficulty level.
+
+WHY:
+I want to boost my health and sustain a healthy routine.
+
+## Example 5:
+WHAT:
+Review my code, find issues and fix those issues in the code below.
+
+HOW:
+Explain each issue and provide corrected code.
+
+WHY:
+My application is not working as expected. I want code that is easier to maintain and cleaner.
