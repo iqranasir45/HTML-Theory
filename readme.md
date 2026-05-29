@@ -1,121 +1,5 @@
 # 🎯 The 3-Rule Prompt Framework
 
-> Write prompts that AI can understand, execute, and optimize.
-
----
-
-## ✨ Overview
-
-Most AI prompts fail because they are incomplete.
-
-A strong prompt answers three questions:
-
-```text
-WHAT → What do you want?
-HOW  → How should it be delivered?
-WHY  → Why do you need it?
-```
-
-Think of it as:
-
-```mermaid
-flowchart LR
-    A[WHAT] --> B[HOW]
-    B --> C[WHY]
-    C --> D[High-Quality AI Output]
-```
-
----
-
-# 🧩 The Formula
-
-## 1️⃣ WHAT
-
-Clearly define the task.
-
-Ask yourself:
-
-* What should the AI create?
-* What problem should it solve?
-* What outcome do I expect?
-
-### Examples
-
-✅ Create a marketing plan.
-
-✅ Write a travel itinerary.
-
-✅ Generate content ideas.
-
-❌ Help me with marketing.
-
-❌ Tell me about travel.
-
----
-
-## 2️⃣ HOW
-
-Define the format, style, and constraints.
-
-Specify:
-
-* Tone
-* Structure
-* Length
-* Audience
-* Writing style
-
-### Examples
-
-```text
-HOW:
-Present the answer as a table.
-Use a professional tone.
-Keep it under 500 words.
-Include actionable recommendations.
-```
-
----
-
-## 3️⃣ WHY
-
-Provide context.
-
-Context dramatically improves AI output quality.
-
-Tell the AI:
-
-* Who you are
-* What you're working on
-* Why the result matters
-
-### Examples
-
-```text
-WHY:
-I am a startup founder preparing for investor meetings
-and need a concise strategy document.
-```
-
----
-
-# 🚀 Prompt Template
-
-Copy and reuse:
-
-```text
-WHAT:
-[Describe the task]
-
-HOW:
-[Specify format, tone, style, length, constraints]
-
-WHY:
-[Provide context and purpose]
-```
-
----
-
 # 💡 Example 1: Career Development
 
 ### WHAT
@@ -201,27 +85,7 @@ I am preparing a manuscript and need a strong story framework.
 
 ---
 
-# 🎨 Visual Cheat Sheet
-
-```text
-┌──────────────────────────────┐
-│          GREAT PROMPT        │
-├──────────────────────────────┤
-│ WHAT → Task                  │
-│ HOW  → Format & Style        │
-│ WHY  → Context & Purpose     │
-└──────────────────────────────┘
-```
-
----
-
-# 🔥 Quick Comparison
-
-❌ Weak Prompt
-
-```text
-Write a business plan.
-```
+# Example
 
 ✅ Strong Prompt
 
@@ -235,22 +99,4 @@ and keep it under 1,500 words.
 
 WHY:
 I am preparing for an investor pitch next month.
-```
 
----
-
-# 🏆 Golden Rule
-
-The quality of the AI's answer is usually proportional to the quality of the prompt.
-
-```text
-More Context
-      +
-More Clarity
-      +
-Better Constraints
-      =
-Better Results
-```
-
-Happy Prompting! 🚀
