@@ -1,6 +1,6 @@
 # 🎯 The 3-Rule Prompt Framework
 
-# 💡 Example 1: Career Development
+## 💡 Example 1: Career Development
 
 ### WHAT
 
@@ -17,7 +17,7 @@ I want to qualify for a leadership role within the next year.
 
 ---
 
-# 🌍 Example 2: Travel Planning
+## 🌍 Example 2: Travel Planning
 
 ### WHAT
 
@@ -34,7 +34,7 @@ I'm visiting for the first time and want a balanced experience.
 
 ---
 
-# 📱 Example 3: Content Creation
+## 📱 Example 3: Content Creation
 
 ### WHAT
 
@@ -51,7 +51,7 @@ I manage a professional brand and need one month of content.
 
 ---
 
-# 💰 Example 4: Personal Finance
+## 💰 Example 4: Personal Finance
 
 ### WHAT
 
@@ -68,7 +68,7 @@ I am new to investing and want a structured path.
 
 ---
 
-# 🚀 Example 5: Creative Writing
+## 🚀 Example 5: Creative Writing
 
 ### WHAT
 
