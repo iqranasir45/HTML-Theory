@@ -112,8 +112,25 @@ Block-level elements are `<div>`, `<p>`, `<h1>` to `<h6>`, `<section>`, and `<ar
 Inline Elements do not start on the new line. They take the only required width and they sit next to each other. They contain only horizontal margins, vertical margins don't affect the content. We can't set their width and height with CSS, they are ignored by default.
 Inline elements are `<span>`, `<br>`, `<b>`, `<a>`, `<em>`, and `<strong>` etc.
 
-#### Usage Example of block-level elements:
+#### Usage Example of Inline elements:
 `<p>Lorem Ipsum is simply <span>dummy text</span> of the printing and typesetting industry. <em>Lorem Ipsum</em> has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St <b>Bride Printing Library</b>, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets.</p>`
 
 #### Output:
 <p>Lorem Ipsum is simply <span>dummy text</span> of the printing and typesetting industry. <em>Lorem Ipsum</em> has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St <b>Bride Printing Library</b>, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets.</p>
+
+## Question 4: What is the purpose of the DOCTYPE declaration in HTML?
+
+## Answer: 
+All HTML documents starts with a `<!DOCTYPE html>` declaration. It is not an HTML tag, it is an instruction for the browser to tell in which version of HTML the page is written. Without it, the browser enters Quirks Mode, which may cause the page to appear inaccurately. CSS margins, padding, and widths may not work correctly wihout the DOCTYPE declaration. It ensures the consistency and informs the browser to render the website using new web standards instead of the old, outdated functionality. 
+
+### Example of DOCTYPE declaration:
+
+`<!DOCTYPE html>`
+`<html>`
+  `<head>`
+    `<title>My Page</title>`
+  `</head>`
+  `<body>`
+    Hello World
+  `</body>`
+`</html>`
