@@ -144,11 +144,63 @@ The main difference between id and class is that `id` is unique; only one elemen
 
 ### Example: 
 ```
-<!-- ID: only one element on a page (also only one per element) -->
+<!-- ID: only one element can have it on a page (also only one id per element) -->
 <div id="main-content">This is the main content of the web page</div>
 
-<!-- Class: many elements can share it (also one elements can multiple classes)  -->
+<!-- Class: many elements can share it on a page (also one element can have multiple classes)  -->
 <p class="highlight text bold main-passage">First passage</p>
 <p class="highlight">Second passage</p>
 <p class="highlight">Third passage</p>
+```
+
+## Question 5: How do you create a form in HTML? Which input types are commonly used?
+
+## Answer:
+A form can be created in HTML using the `<form>` tag. It is used to get the user input like name, email, and passwords etc., and store it to the server.
+
+### Basic Form Structure:
+```
+<form action="/submit" method="POST">
+  <label>Name:</label>
+  <input type="text" name="name">
+  <label>Email:</label>
+  <input type="email" name="email">
+  <button type="submit">Submit</button>
+</form>
+```
+
+### Key attributes:
+- action: Where the form data is sent (URL)
+- method: How data is sent to the server (GET or POST)
+- label: Describes what each input is for
+
+Some commonly used inputs types in the form are:
+- `type="text"`: used for name, username, and search etc.
+- `type="password"`: used for passwords - hides the characters
+- `type="email"`: used for email addresses
+- `type="number"`: used for numeric input - age, quantity, price, mobile numbers etc.
+- `type="radio"`: select only one option - yes/no
+- `type="checkbox"`: select multiple options - like select preferences
+- `type="submit"`: sends the form data to server - used in buttons
+
+## Question 5: What are meta tags in HTML and why are they used?
+
+## Answer:
+Meta tags are HTML elements that provide metadata (data about data) about a webpage to the browsers, and search engines, but they are not visible on the webpage itself. `<meta>` tags are always written inside the `<head>` tag. 
+
+Most commonly used meta tags are:
+- `charset="UTF-8"`: used for character encoding, tells the browser whch characters to support. UTF-8 covers all the languages and symbols in the world.
+- `viewport`: used for mobile responsiveness.
+- `description`: helps search engines understand the page content and improves webpage ranking on Google.
+- `author`: used to provide the author name of the webpage.
+
+### Example of meta tags:
+```
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 ```
