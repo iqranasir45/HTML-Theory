@@ -8,7 +8,7 @@ HTML stands for Hyper Text Markup Language. It is the standard language used to 
 #### Difference between HTML and HTML5:
 - HTML is the older version mainly used to structure the web page content.
 - HTML5 is the latest and improved version of HTML with new features.
-- HTML doesn't support multimedia tags like '<video>' and '<audio>' without the plugins. On the other hand, HTML5 has the built-in multimedia tags.
+- HTML doesn't support multimedia tags like &lt;video&gt; and &lt;audio&gt; without the plugins. On the other hand, HTML5 has the built-in multimedia tags.
 - HTML5 has the new semantic tags like <header>, <nav>, <article>, <footer>, and <section> instead of just <div> and <span> tags, which makes it easier to organize and understand the web pages.
 - The initial line in old HTML was long and difficult. HTML5 made it short and simple:
 <!DOCTYPE html>
