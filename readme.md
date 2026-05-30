@@ -125,12 +125,14 @@ All HTML documents starts with a `<!DOCTYPE html>` declaration. It is not an HTM
 
 ### Example of DOCTYPE declaration:
 
-`<!DOCTYPE html>`
-`<html>`
-  `<head>`
-    `<title>My Page</title>`
-  `</head>`
-  `<body>`
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Page</title>
+  </head>
+  <body>
     Hello World
-  `</body>`
-`</html>`
+  </body>
+</html>
+```
