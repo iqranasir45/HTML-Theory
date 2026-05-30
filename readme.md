@@ -73,11 +73,18 @@ Examples of semantic tags are:
 - `<div>` starts on a new line and on the other side `<span>` remains to the same line.
 - `<div>` used to create layouts, and divide the page sections and on the other side `<span>` is used to style specific words and parts of the text.
 
-#### Example: 
+#### Examples: 
 
 #### Use of `<div>`:
-<div style="background-color: pink;">This is a section</div>
+`<div style="background-color: pink;">This is a section</div>`
+`<div style="background-color: blue; color: white;">It starts a new line</div>`
+
+#### output: 
+<div style="background-color: pink;">This is a section</div>`
 <div style="background-color: blue; color: white;">It starts a new line</div>
 
 #### Use of `<span>`:
-<p>This is a <span style="color:red;">red</span> word. This is a paragraph with <span>highlighted text</span> in the middle.</p>
+`<p>This is a <span style="color:red;">red</span> word. This is a paragraph with <span>span</span>, it doesn't starts on a new line.</p>`
+
+#### output: 
+<p>This is a <span style="color:red;">red</span> word. This is a paragraph with <span>span</span>, it doesn't starts on a new line.</p>
