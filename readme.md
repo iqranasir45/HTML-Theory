@@ -80,4 +80,4 @@ Examples of semantic tags are:
 <div style="background-color: blue; color: white;">It starts a new line</div>
 
 #### Use of `<span>`:
-<p>This is a <span style="color:red;">red</span> word.</p>
+<p>This is a <span style="color:red;">red</span> word. This is a paragraph with <span>highlighted text</span> in the middle.</p>
