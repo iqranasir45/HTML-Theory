@@ -79,12 +79,41 @@ Examples of semantic tags are:
 `<div style="background-color: pink;">This is a section</div>`
 `<div style="background-color: blue; color: white;">It starts a new line</div>`
 
-#### output: 
+#### Output: 
 <div style="background-color: pink;">This is a section</div>
 <div style="background-color: blue; color: white;">It starts a new line</div>
 
 #### Use of `<span>`:
 `<p>This is a <span style="color:red;">red</span> word. This is a paragraph with <span>span</span>, it doesn't starts on a new line.</p>`
 
-#### output: 
+#### Output: 
 <p>This is a <span style="color:red;">red</span> word. This is a paragraph with <span>span</span>, it doesn't starts on a new line.</p>
+
+## Question 3: Explain the difference between block-level elements and inline elements.
+
+## Answer: 
+### Block-level Elements:
+Block-level elements always start on a new line. They take the whole available width and browser automatically add some space (padding/margin) before, after or within the element. We can set the width and height of the block-level elemnts with the help of CSS.
+Block-level elements are `<div>`, `<p>`, `<h1>` to `<h6>`, `<section>`, and `<article>` etc.
+
+#### Usage Example of block-level elements:
+`<p>This is a paragraph</p>`
+`<h1>This is heading</h1>`
+`<div>This is a div section</div>`
+`<article>This is a blog post</article>`
+
+#### Output:
+<p>This is a paragraph</p>
+<h1>This is heading</h1>
+<div>This is a div section</div>
+<article>This is a blog post</article>
+
+### Inline Elements:
+Inline Elements do not start on the new line. They take the only required width and they sit next to each other. They contain only horizontal margins, vertical margins don't affect the content. We can't set their width and height with CSS, they are ignored by default.
+Inline elements are `<span>`, `<br>`, `<b>`, `<a>`, `<em>`, and `<strong>` etc.
+
+#### Usage Example of block-level elements:
+`<p>Lorem Ipsum is simply <span>dummy text</span> of the printing and typesetting industry. <em>Lorem Ipsum</em> has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St <b>Bride Printing Library</b>, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets.</p>`
+
+#### Output:
+<p>Lorem Ipsum is simply <span>dummy text</span> of the printing and typesetting industry. <em>Lorem Ipsum</em> has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St <b>Bride Printing Library</b>, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets.</p>
