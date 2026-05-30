@@ -45,15 +45,9 @@ HTML stands for Hyper Text Markup Language. It is the standard language used to 
 | `<footer>` |
 
 
-<<<<<<< HEAD
 ## Question 1: What are semantic HTML tags? Why are they important in web development?
 
 ## Answer:
-=======
-### Question 1: What are semantic HTML tags? Why are they important in web development?
-
-### Answer:
->>>>>>> 0b13970e0a36b2b952f3e0d6c45437383c625f4d
 Semantic HTML tags clearly describe the meaning and purpose of their content, making the webpage's structure easy for developers and browsers to understand. 
 Examples of semantic tags are:
 - `<header>` : Top section of page include logo, nav, banner etc.
@@ -65,46 +59,28 @@ Examples of semantic tags are:
 - `<aside>` : Side content (like a sidebar)
 - `<footer>` : Bottom section of a page
 
-<<<<<<< HEAD
 ### Importance:
-=======
-#### Importance:
->>>>>>> 0b13970e0a36b2b952f3e0d6c45437383c625f4d
 - It provides better readability. Developers can easily identify different sections of webpage content. For example, when you see the `<nav>` tag, you can easily understand that this section is of navigation links.
 - It makes maintenance easier because the well-structured code is easier to modify, debug and maintain.
 - Search engines can easily understand the structure and content of webpage. which helps in higher ranking of website.
 
-<<<<<<< HEAD
 ## Question 2: What is the difference between `<div>` and `<span>` tags?
 
 ## Answer:
-=======
-### Question 2: What is the difference between `<div>` and `<span>` tags?
-
-### Answer:
->>>>>>> 0b13970e0a36b2b952f3e0d6c45437383c625f4d
 - `<div>` is block-level element and `<span>` is an inline element.
 - `<div>` occupy the whole available width and on the other side `<span>` just used the required width.
 - `<div>` used to organize and group large blocks of content and on the other side `<span>` is used to style and group small blocks of content within the line.
 - `<div>` starts on a new line and on the other side `<span>` remains to the same line.
 - `<div>` used to create layouts, and divide the page sections and on the other side `<span>` is used to style specific words and parts of the text.
 
-<<<<<<< HEAD
 ### Examples: 
-=======
-#### Examples: 
->>>>>>> 0b13970e0a36b2b952f3e0d6c45437383c625f4d
 
 #### Use of `<div>`:
 `<div style="background-color: pink;">This is a section</div>`
 `<div style="background-color: blue; color: white;">It starts a new line</div>`
 
 #### output: 
-<<<<<<< HEAD
 <div style="background-color: pink;">This is a section</div>
-=======
-<div style="background-color: pink;">This is a section</div>`
->>>>>>> 0b13970e0a36b2b952f3e0d6c45437383c625f4d
 <div style="background-color: blue; color: white;">It starts a new line</div>
 
 #### Use of `<span>`:
