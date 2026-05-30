@@ -136,3 +136,19 @@ All HTML documents starts with a `<!DOCTYPE html>` declaration. It is not an HTM
   </body>
 </html>
 ```
+
+## Question 5: What is the difference between id and class attributes?
+
+## Answer:
+The main difference between id and class is that `id` is unique; only one element can have it on a page. On the other hand, `class` can be reused by many elements on a page. `id` has a higher priority; it overrides the class styles, while the `class` has a lower priority. We use `id` when we need to identify a specific element, while we use the `class` when we need to style multiple elements in the same way.
+
+### Example: 
+```
+<!-- ID: only one element on a page (also only one per element) -->
+<div id="main-content">This is the main content of the web page</div>
+
+<!-- Class: many elements can share it (also one elements can multiple classes)  -->
+<p class="highlight text bold main-passage">First passage</p>
+<p class="highlight">Second passage</p>
+<p class="highlight">Third passage</p>
+```
